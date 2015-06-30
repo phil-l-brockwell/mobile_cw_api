@@ -1,0 +1,12 @@
+<%= form_for @review do |f| %>
+  <%= f.label :author %>
+  <%= f.text_field :author %>
+  <br>
+  <%= f.label :text %>
+  <%= f.text_field :text %>
+  <br>
+  <%= f.label :votes %>
+  <%= f.text_field :votes %>
+  <br>
+  <%= f.submit %>
+<% end %>
