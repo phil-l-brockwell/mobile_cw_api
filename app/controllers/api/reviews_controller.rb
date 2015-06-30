@@ -1,5 +1,5 @@
 class Api::ReviewsController < ApplicationController
-  
+
   skip_before_filter :verify_authenticity_token
 
   def index
@@ -8,6 +8,7 @@ class Api::ReviewsController < ApplicationController
 
   def create
     Review.create(review_params)
+    redirect_to '/index'
   end
 
   def update
