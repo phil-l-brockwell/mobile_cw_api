@@ -1,0 +1,12 @@
+<ul>
+
+  <% @reviews.each do |review| %>
+    <li>
+    Author: <%= review.author %><br>
+    Text: <%= review.text %><br>
+    Votes: <%= review.votes %><br>
+    <%= link_to "Delete", review_path(review), method: :delete %>
+    </li>
+  <% end %>
+
+</ul>

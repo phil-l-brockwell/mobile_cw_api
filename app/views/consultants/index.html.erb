@@ -1,0 +1,14 @@
+<ul>
+
+  <% @consultants.each do |consultant| %>
+    <li>
+      Name: <%= consultant.name %><br>
+      Title: <%= consultant.title %><br>
+      Profile: <%= consultant.profile %><br>
+      <%= image_tag consultant.img %><br>
+      <%= image_tag consultant.mainimg %><br>
+      <%= link_to "Delete", consultant_path(consultant), method: :delete %>
+    </li>
+  <% end %>
+
+</ul>

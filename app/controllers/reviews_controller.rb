@@ -1,9 +1,6 @@
 class ReviewsController < ApplicationController
-
-  skip_before_filter :verify_authenticity_token
-
   def index
-    render json: Review.all
+    @reviews = Review.all
   end
 
   def new
@@ -15,7 +12,15 @@ class ReviewsController < ApplicationController
     redirect_to '/reviews'
   end
 
+  def destroy
+    review = Review.find(params[:id])
+    review.destroy
+    redirect_to '/reviews'
+  end
+
+  private
+
   def review_params
-    params.permit(:author, :text, :votes)
+    params.require(:review).permit(:author, :text, :votes)
   end
 end

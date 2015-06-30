@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
 
   def index
-    render json: Item.all
+    @items = Item.all
   end
 
   def new
@@ -13,9 +13,10 @@ class ItemsController < ApplicationController
     redirect_to '/items'
   end
 
-  def show
+  def destroy
     item = Item.find(params[:id])
-    render json: item
+    item.destroy
+    redirect_to '/items'
   end
 
   private

@@ -1,7 +1,7 @@
 class ConsultantsController < ApplicationController
 
   def index
-    render json: Consultant.all
+    @consultants = Consultant.all
   end
 
   def new
@@ -12,6 +12,14 @@ class ConsultantsController < ApplicationController
     Consultant.create(consultant_params)
     redirect_to '/consultants'
   end
+
+  def destroy
+    consultant = Consultant.find(params[:id])
+    consultant.destroy
+    redirect_to '/consultants'
+  end
+
+  private
 
   def consultant_params
     params.require(:consultant).permit(:name, :title, :profile, :img, :mainimg)

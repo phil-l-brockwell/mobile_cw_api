@@ -1,0 +1,13 @@
+<ul>
+
+  <% @items.each do |item| %>
+    <li>
+      Name: <%= item.name %><br>
+      Description: <%= item.description %><br>
+      Price: <%= item.price %><br>
+      <%= image_tag item.image %><br>
+      <%= link_to "Delete", item_path(item), method: :delete %>
+    </li>
+  <% end %>
+
+</ul>
