@@ -13,6 +13,11 @@ class ItemsController < ApplicationController
     redirect_to '/items'
   end
 
+  def show
+    item = Item.find(params[:id])
+    render json: item
+  end
+
   private
 
   def item_params
