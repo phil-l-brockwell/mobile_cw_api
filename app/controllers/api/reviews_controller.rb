@@ -8,7 +8,7 @@ class Api::ReviewsController < ApplicationController
 
   def create
     Review.create(review_params)
-    redirect_to '/index'
+    head 200
   end
 
   def update
