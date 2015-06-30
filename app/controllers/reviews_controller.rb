@@ -16,6 +16,6 @@ class ReviewsController < ApplicationController
   end
 
   def review_params
-    params.permit(:author, :text, :votes, :date)
+    params.permit(:author, :text, :votes)
   end
 end
