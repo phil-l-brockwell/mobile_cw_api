@@ -18,7 +18,7 @@ module MobileCwApi
     config.middleware.use Rack::Cors do
         allow do
             origins '*'
-            resource 'api/jquery', :headers => :any, :methods => [:get, :post]
+            resource '/*', :headers => :any, :methods => [:get, :post]
         end
     end
   end
