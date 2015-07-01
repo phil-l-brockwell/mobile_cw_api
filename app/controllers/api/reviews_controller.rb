@@ -7,12 +7,12 @@ class Api::ReviewsController < ApplicationController
   end
 
   def create
-    Review.create(review_params)
-    head 200
-  end
-
-  def update
-
+    review = Review.new(review_params)
+    if review.save
+      head 200
+    else
+      head 500
+    end
   end
 
   private
