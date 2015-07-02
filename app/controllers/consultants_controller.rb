@@ -1,5 +1,7 @@
 class ConsultantsController < ApplicationController
 
+  before_action :authenticate_admin!, except: :index
+
   def index
     @consultants = Consultant.all
   end
