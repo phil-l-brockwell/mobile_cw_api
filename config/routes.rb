@@ -9,4 +9,6 @@ Rails.application.routes.draw do
     resources :consultants
     resources :reviews
   end
+
+  root 'pages#index'
 end
