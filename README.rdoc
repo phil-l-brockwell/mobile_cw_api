@@ -1,3 +1,15 @@
 == README
 
-A Rails API used to serve an ionic mobile app. 
+A Rails API used to serve an ionic mobile app.
+
+This API was created in conjunction with an Ionic/Phonegap app built while studying at the Greenwich School of Management. It was built using Ruby on Rails and deployed with on Heroku.
+
+The PSQL database contains 3 models:
+
+* Item
+* Consultant
+* Review
+
+The Item and Consultant data can be accessed with get requests to the following routes which return JSON:
+
+![Consultants](https://ancient-fortress-6314.herokuapp.com/api/consultants) and ![https://ancient-fortress-6314.herokuapp.com/api/items](Items)
