@@ -1,0 +1,288 @@
+
+
+Started GET "/" for ::1 at 2015-07-02 21:23:54 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 5119ms (Views: 5098.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.self-dee3b3db1940d49e6b3be00725f13a4849ee26cac1577ff5468487322b277d73.css?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-02 21:24:00 +0100
+
+
+Started GET "/consultants" for ::1 at 2015-07-02 21:24:02 +0100
+Processing by ConsultantsController#index as HTML
+  [1m[36mConsultant Load (0.6ms)[0m  [1mSELECT "consultants".* FROM "consultants"[0m
+  Rendered consultants/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 73ms (Views: 63.1ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/api/consultants" for ::1 at 2015-07-02 21:24:06 +0100
+Processing by Api::ConsultantsController#index as HTML
+  [1m[35mConsultant Load (0.5ms)[0m  SELECT "consultants".* FROM "consultants"
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/consultants" for ::1 at 2015-07-02 21:24:06 +0100
+Processing by Api::ConsultantsController#index as HTML
+  [1m[36mConsultant Load (0.4ms)[0m  [1mSELECT "consultants".* FROM "consultants"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-03 00:00:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (6.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 453ms (Views: 430.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.self-dee3b3db1940d49e6b3be00725f13a4849ee26cac1577ff5468487322b277d73.css?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:00:42 +0100
+
+
+Started GET "/admins/sign_in" for ::1 at 2015-07-03 00:00:48 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.9ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (46.7ms)
+Completed 200 OK in 143ms (Views: 102.6ms | ActiveRecord: 23.1ms)
+
+
+Started POST "/admins/sign_in" for ::1 at 2015-07-03 00:01:16 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q5DUuGQQqrXRGwJlfGgrPQYC3hGOSPpQnOQ2uYXSLBFHRv1pObe3ybv3ILnJkJrAKKqNGx6GkIJHz4f+Xg8SrQ==", "admin"=>{"email"=>"nineteen40eight@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (15.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["email", "nineteen40eight@gmail.com"]]
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mUPDATE "admins" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "admins"."id" = $4[0m  [["current_sign_in_at", "2015-07-02 23:01:16.782175"], ["sign_in_count", 2], ["updated_at", "2015-07-02 23:01:16.786130"], ["id", 1]]
+  [1m[35m (4.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/items/new
+Completed 302 Found in 158ms (ActiveRecord: 22.3ms)
+
+
+Started GET "/items/new" for ::1 at 2015-07-03 00:01:16 +0100
+Processing by ItemsController#new as HTML
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered items/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f9e8671fd50>:0x007f9e8671f3a0>):
+    14:       <a href="/"><h1>Greenwich Fitness API</h1></a>
+    15: 
+    16:       <% if admin_signed_in? %>
+    17:         <h3>Signed in as<%= current_user.email %></h3>
+    18:         <%= link_to 'Sign out', destroy_admin_session_path, method: :delete %>
+    19:       <% else %>
+    20:         <%= link_to 'Sign in', new_admin_session_path %>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__4434730879948567838_70159416608480'
+
+
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.2ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (34.0ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/PhilBrockwell/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (69.3ms)
+
+
+Started GET "/items/new" for ::1 at 2015-07-03 00:01:37 +0100
+Processing by ItemsController#new as HTML
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered items/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-dee3b3db1940d49e6b3be00725f13a4849ee26cac1577ff5468487322b277d73.css?body=1" for ::1 at 2015-07-03 00:01:37 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:01:38 +0100
+
+
+Started GET "/items/new" for ::1 at 2015-07-03 00:01:46 +0100
+Processing by ItemsController#new as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered items/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 69ms (Views: 66.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for ::1 at 2015-07-03 00:01:46 +0100
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (1.6ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/items" for ::1 at 2015-07-03 00:01:47 +0100
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (0.9ms)
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 75ms (Views: 72.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/items" for ::1 at 2015-07-03 00:02:07 +0100
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-dee3b3db1940d49e6b3be00725f13a4849ee26cac1577ff5468487322b277d73.css?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:07 +0100
+
+
+Started GET "/items" for ::1 at 2015-07-03 00:02:21 +0100
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (1.0ms)
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-dee3b3db1940d49e6b3be00725f13a4849ee26cac1577ff5468487322b277d73.css?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-03 00:02:21 +0100
+
+
+Started DELETE "/admins/sign_out" for ::1 at 2015-07-03 00:02:29 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"t7/kl1EEVpj86IxvJD338m4qU8wl9eJTACeMMjhy4UFV6EcLk7mRPXPGQP2tWDP2GSuLg7fMos6a5Dum7r2M9A=="}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = $1  ORDER BY "admins"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-07-03 00:02:29 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.7ms)
