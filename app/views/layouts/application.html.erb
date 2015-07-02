@@ -8,19 +8,32 @@
 </head>
 <body>
 
-  <a href="/"><h1>Greenwich Fitness API <small>Phil Brockwell</small></h1></a>
+  <nav class='navbar navbar-default navbar-fixed-top'>
+    <div class='container'>
 
-  <% if admin_signed_in? %>
-    <%= link_to 'Sign out', destroy_admin_session_path, method: :delete %>
-  <% else %>
-    <%= link_to 'Sign in', new_admin_session_path %>
-  <% end %>
+      <a href="/"><h1>Greenwich Fitness API</h1></a>
 
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-  <%= yield %>
+      <% if admin_signed_in? %>
+        <%= link_to 'Sign out', destroy_admin_session_path, method: :delete %>
+      <% else %>
+        <%= link_to 'Sign in', new_admin_session_path %>
+      <% end %>
+    </div>
+  </nav>
 
-  <footer class='footer'>This is the footer</footer>
+  <div class='container'>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= yield %>
+  </div>
+
+  <nav class='navbar navbar-default navbar-fixed-bottom'>
+    <div class='container'>
+      All Work by <a href='http://www.philbrockwell.com/'>Phil Brockwell</a>.
+      <br>
+      <a href='https://github.com/robertpulson/mobile_cw_api/'>Check out the GitHub Repo.</a>
+    </div>
+  </nav>
 
 </body>
 </html>
