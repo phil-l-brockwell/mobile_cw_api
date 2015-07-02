@@ -2,22 +2,30 @@
 <p>The API can store Consultant, Item and Review data. Returning this data as JSON. The API can also receive Post requests from the mobile app and store data into the Review model.</p>
 <p>I have included views to show the data in HTML form for clarity, you can check them out below.</p>
 
-<%= link_to 'Consultants in HTML', consultants_path %>
-<br>
-<%= link_to 'Items in HTML', items_path %>
-<br>
-<%= link_to 'Reviews in HTML', reviews_path %>
-<br><br>
+<table class="table table-hover">
 
-<%= link_to 'Consultants in JSON', api_consultants_path %>
-<br>
-<%= link_to 'Items in JSON', api_items_path %>
-<br>
-<%= link_to 'Reviews in JSON', api_reviews_path %>
-<br><br>
+  <tr class='success'>
+    <th>Consultants</th>
+    <th>Items</th>
+    <th>Reviews</th>
+  </tr>
 
-Consultants in API: <%= @consultants.count %>
-<br>
-Items in API: <%= @items.count %>
-<br>
-Reviews in API: <%= @reviews.count %>
+  <tr>
+    <td><%= @consultants.count %></td>
+    <td><%= @items.count %></td>
+    <td><%= @reviews.count %></td>
+  </tr>
+
+  <tr>
+    <td><%= link_to 'HTML', consultants_path %></td>
+    <td><%= link_to 'HTML', items_path %></td>
+    <td><%= link_to 'HTML', reviews_path %></td>
+  </tr>
+
+  <tr>
+    <td><%= link_to 'JSON', api_consultants_path %></td>
+    <td><%= link_to 'JSON', api_items_path %></td>
+    <td><%= link_to 'JSON', api_reviews_path %></td>
+  </tr>
+
+</table>
