@@ -12,4 +12,4 @@ The PSQL database contains 3 models:
 
 The Item and Consultant data can be accessed with get requests to the following routes which return JSON:
 
-{https://ancient-fortress-6314.herokuapp.com/api/consultants}[Consultants] and {https://ancient-fortress-6314.herokuapp.com/api/items}[Items]
+Consultants :: https://ancient-fortress-6314.herokuapp.com/api/consultants and Items :: https://ancient-fortress-6314.herokuapp.com/api/items
