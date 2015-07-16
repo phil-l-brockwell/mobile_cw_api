@@ -12,6 +12,6 @@ The PSQL database contains 3 models:
 
 The Item, Consultant and Review data can be accessed with get requests to the following routes which return JSON:
 
-{Consultants}[https://ancient-fortress-6314.herokuapp.com/api/consultants], {Items}[https://ancient-fortress-6314.herokuapp.com/api/items] and {Reviews}[https://ancient-fortress-6314.herokuapp.com/api/reviews].
+{Consultants}[https://greenwich-fitness-api.herokuapp.com/api/consultants], {Items}[https://greenwich-fitness-api.herokuapp.com/api/items] and {Reviews}[https://greenwich-fitness-api.herokuapp.com/api/reviews].
 
 Post requests can also be made to the Review route and an attached review will be added to the DB.
