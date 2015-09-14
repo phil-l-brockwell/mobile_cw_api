@@ -11,4 +11,30 @@ body
 {
   padding-top: 50px;
   padding-bottom: 20px;
+  background: url(http://cdn29.us1.fansshare.com/images/gymgirls/wpid-hd-wallpapers-gym-wallpaper-1591850523.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-custom 
+{
+  background-color: #0000FF;
+}
+
+p, .navbar a
+{
+  color: white;
+}
+
+.custom-header
+{
+  background-color: #00CCFF;
+}
+
+.table
+{
+  margin-top: 100px;
+  background-color: white;  
 }

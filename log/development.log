@@ -286,3 +286,949 @@ Processing by PagesController#index as HTML
   [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
   Rendered pages/index.html.erb within layouts/application (2.5ms)
 Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-14 22:47:23 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (26.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35m (5.7ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (2.5ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (2.0ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 2432ms (Views: 2376.6ms | ActiveRecord: 33.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/application.self-5efe69d63d66bf91bc4e9a7a11ddd68bdd5d5686af579b71185b5f3032d8644d.css?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:25 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:47:26 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:47:56 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 194ms (Views: 192.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-5efe69d63d66bf91bc4e9a7a11ddd68bdd5d5686af579b71185b5f3032d8644d.css?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:47:56 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:49:40 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 1908ms (Views: 1906.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-5efe69d63d66bf91bc4e9a7a11ddd68bdd5d5686af579b71185b5f3032d8644d.css?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:49:42 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:51:56 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1885ms (Views: 1883.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-05cac72e380ada4f4c2055df7c89eb63ea5c1e687d844ea88f4c63e4a6d18f6f.css?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:51:58 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:52:56 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2010ms (Views: 2008.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-b27df68f1240ccc2c5972887c03186bc02806686c7b77dfa9918e055e2dbcc2b.css?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:52:58 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:53:49 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1853ms (Views: 1851.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-7171b2af1c02e4aa3388eaede365a7b85e8b84be4b5a42c1ebaf6eddf82abf66.css?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:53:50 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:59:15 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 2032ms (Views: 2029.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-77a751f770e3eeac5aa750b75d44d56fc5417f86617082629200da73878b8501.css?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:59:17 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 22:59:37 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1873ms (Views: 1871.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-73a7845190e6103655be58a9e5d725d29de7e87f526bdba6a3ea9dd5b018c0bb.css?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 22:59:38 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:11:00 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2103ms (Views: 2100.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-abd3df2ffc63f64c637ffdf9c409b1887968d9316a04c82552423035e0fea7f2.css?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:11:02 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:11:07 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-14 23:11:48 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2047ms (Views: 2045.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-d0a25a9d60adf538e8002f41edf2ca70c43966545cbca57e660e562b72d50e00.css?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:11:50 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:12:16 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 2106ms (Views: 2104.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/application.self-d751200b68b5546e07ebde80d1661c5cb3dd22f8c7fe07e6f9c16718c884ed6b.css?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:12:18 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:15:23 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2118ms (Views: 2115.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-5cc4e0e6e888afa0a3625b811daa9e29686e8f2437f957561793754d8191f93b.css?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:15:25 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:15:43 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1900ms (Views: 1898.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-02ff3a726500d970bc72ce0932ffebe0377c7ff7726bc48497ab9e574f8759de.css?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:15:45 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:16:42 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 67ms (Views: 64.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-02ff3a726500d970bc72ce0932ffebe0377c7ff7726bc48497ab9e574f8759de.css?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:16:42 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:17:18 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-02ff3a726500d970bc72ce0932ffebe0377c7ff7726bc48497ab9e574f8759de.css?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:17:18 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:18:01 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-02ff3a726500d970bc72ce0932ffebe0377c7ff7726bc48497ab9e574f8759de.css?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:18:01 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:20:42 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2169ms (Views: 2166.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-b8916b6b8d3d4e6aea58bb4e6f7516d6b95a4e186d780a41fdbaf18c54994c84.css?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:20:44 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:23:25 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2171ms (Views: 2167.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-06775c2a327afa751955abeff776e917aea5a615f1d4d9a739e3c6ec07fb55c1.css?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:23:27 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:24:35 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1944ms (Views: 1941.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-fc34befd96f05a804a9e264f65496b03c59e2035830f727c2956415ee60b549b.css?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:24:37 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:25:05 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1845ms (Views: 1843.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-4b0f6e5cb15609e93d13f7f55db604b576d05bf991757c245d3bfe93f9d5e5f0.css?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:25:07 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:25:45 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1784ms (Views: 1782.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-d3186894f3c6f1af878155049b3d257ad74f27082cbf30c617d6a65166ac28fd.css?body=1" for ::1 at 2015-09-14 23:25:46 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:25:46 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:25:47 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:26:11 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-d3186894f3c6f1af878155049b3d257ad74f27082cbf30c617d6a65166ac28fd.css?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:12 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:26:35 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1906ms (Views: 1904.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-21c16b4d5f7391bf5352adaa688e49bd960b2126590f291ba5071032c6b0f488.css?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:26:37 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:27:32 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2059ms (Views: 2057.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-2b752cc3d99fa1b2bf107494b0d4b46b4101761c8e306dc88178da436a361675.css?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:27:35 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:27:45 +0100
+Processing by PagesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "consultants"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "items"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"[0m
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1912ms (Views: 1910.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-bac212d1881ae5fc69b5786c6e87b60ef87d06d8dfaba252b9099475c1b80973.css?body=1" for ::1 at 2015-09-14 23:27:46 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:27:46 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:46 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:27:46 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:27:46 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:47 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:47 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:27:47 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:27:47 +0100
+
+
+Started GET "/" for ::1 at 2015-09-14 23:27:59 +0100
+Processing by PagesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "consultants"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "items"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"
+  Rendered pages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1896ms (Views: 1894.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/consultants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/application.self-0068691e92973defe935c01622088f6c9b59d252f7dd3ccafd20c3ef504c1a9e.css?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-14 23:28:01 +0100
