@@ -20,6 +20,9 @@ The Item, Consultant and Review data can be accessed with get requests to the fo
 Post requests can also be made to the Review route and an attached review will be added to the DB.
 
 === Screenshots
+![ScreenShot](https://github.com/robertpulson/mobile_cw_api/blob/master/screenshots/Screen%20Shot%202015-09-15%20at%2000.09.53.png)
+![ScreenShot](https://github.com/robertpulson/mobile_cw_api/blob/master/screenshots/Screen%20Shot%202015-09-15%20at%2000.10.53.png)
+![ScreenShot](https://github.com/robertpulson/mobile_cw_api/blob/master/screenshots/Screen%20Shot%202015-09-15%20at%2000.11.06.png)
 
 === Getting Started
 
