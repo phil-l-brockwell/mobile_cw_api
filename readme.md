@@ -3,7 +3,7 @@ A Rails API used to serve an ionic mobile app.
 
 ## Mobile App
 This API was created in conjunction with an Ionic/Phonegap app built while studying at the Greenwich School of Management. It was built using Ruby on Rails and deployed with Heroku.
-Here is the {repo}[https://github.com/robertpulson/greenwich-fitness-app].
+Here is the [repo](https://github.com/robertpulson/greenwich-fitness-app).
 
 ## Database
 The PSQL database contains 3 models:
@@ -15,13 +15,13 @@ The PSQL database contains 3 models:
 ## Routes
 The Item, Consultant and Review data can be accessed with get requests to the following routes which return JSON:
 
-{Consultants}[https://greenwich-fitness-api.herokuapp.com/api/consultants], {Items}[https://greenwich-fitness-api.herokuapp.com/api/items] and {Reviews}[https://greenwich-fitness-api.herokuapp.com/api/reviews].
+[Consultants](https://greenwich-fitness-api.herokuapp.com/api/consultants), [Items](https://greenwich-fitness-api.herokuapp.com/api/items) and [Reviews](https://greenwich-fitness-api.herokuapp.com/api/reviews).
 
 Post requests can also be made to the Review route and an attached review will be added to the DB.
 
 ## Screenshots
 ![ScreenShot](https://github.com/robertpulson/mobile_cw_api/blob/master/screenshots/Screen%20Shot%202015-09-15%20at%2000.09.53.png)
-![ScreenShot](https://github.com/robertpulson/mobile_cw_api/blob/master/screenshots/Screen%20Shot%202015-09-15%20at%2000.10.53.png)
+
 ![ScreenShot](https://github.com/robertpulson/mobile_cw_api/blob/master/screenshots/Screen%20Shot%202015-09-15%20at%2000.11.06.png)
 
 ## Getting Started
