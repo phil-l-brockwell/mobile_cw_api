@@ -1,3 +1,5 @@
+# Imports all gems neccessary to run app
+
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.1'

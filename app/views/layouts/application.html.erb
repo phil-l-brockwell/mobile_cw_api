@@ -2,32 +2,41 @@
 <html>
 <head>
   <title>MobileCwApi</title>
+  <!-- imports stylesheets and javascripts -->
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<!-- Opens up a navbar -->
   <nav class='navbar navbar-default navbar-fixed-top'>
     <div class='container'>
 
       <a href="/"><h1>Greenwich Fitness API</h1></a>
 
+      <!-- Checks if an admin is signed in -->
       <% if admin_signed_in? %>
+        <!-- If yes renders the email of the admin and a sign out button -->
         <h5>Signed in as <%= current_admin.email %></h5>
         <%= link_to 'Sign out', destroy_admin_session_path, method: :delete %>
       <% else %>
+        <!-- If no renders a sign in button -->
         <%= link_to 'Sign in', new_admin_session_path %>
       <% end %>
     </div>
   </nav>
 
+  <!-- Renders a container to show alerts and notices -->
   <div class='container'>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+
+    <!-- Renders the content of one of the partial files in here -->
     <%= yield %>
   </div>
 
+  <!-- Renders a footer -->
   <nav class='navbar navbar-default navbar-fixed-bottom'>
     <div class='container'>
       <a href='https://github.com/robertpulson/mobile_cw_api/'>Check out the GitHub Repo.</a>

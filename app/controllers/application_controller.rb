@@ -1,5 +1,5 @@
+# Application controller which all other controllers will inherit from
+# Inherits from the base class which passes on all methods for routing, rendering, redirecting etc.
 class ApplicationController < ActionController::Base
-  # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 end
