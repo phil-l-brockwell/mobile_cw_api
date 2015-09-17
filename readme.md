@@ -1,9 +1,8 @@
 # README
-A Rails API used to serve an ionic mobile app.
+A Rails API used to serve an Ionic mobile app.
 
 ## Mobile App
-This API was created in conjunction with an Ionic/Phonegap app built while studying at the Greenwich School of Management. It was built using Ruby on Rails and deployed with Heroku.
-Here is the [repo](https://github.com/robertpulson/greenwich-fitness-app).
+This API was created in conjunction with an Ionic/Phonegap [App](https://github.com/robertpulson/greenwich-fitness-app), built while studying at the Greenwich School of Management. It was built using Ruby on Rails and deployed with Heroku.
 
 ## Database
 The PSQL database contains 3 models:
