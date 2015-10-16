@@ -1,5 +1,3 @@
-testing
-
 # README
 A Rails API used to serve an Ionic mobile app.
 
